@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Outfit', sans-serif;
+}
+img{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+}
+h1{
+    font-size: 1.5rem;
+    margin: 20px 0 12px 0;
+    color: var(--color-title);
+}
+p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: var(--color-paragraph);
+}
+
+:root{
+    --color-background: hsl(212, 45%, 89%);
+    --color-title: hsl(218, 44%, 22%);
+    --color-paragraph: hsl(220, 15%, 55%);
+}
+
+
+.body-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background);
+}
+
+.container{
+    padding: 20px;
+    max-width: 320px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
